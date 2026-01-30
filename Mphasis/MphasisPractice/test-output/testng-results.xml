@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-20T11:54:57 IST" name="Default suite" finished-at="2026-01-20T11:55:07 IST" duration-ms="10257">
+    <groups>
+    </groups>
+    <test started-at="2026-01-20T11:54:57 IST" name="Default test" finished-at="2026-01-20T11:55:07 IST" duration-ms="10257">
+      <class name="com.Practice.DataDriven.HandleDataDriven">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.Practice.DataDriven.HandleDataDriven@b3ca52e]" started-at="2026-01-20T11:54:57 IST" name="invokeBrowser" finished-at="2026-01-20T11:55:07 IST" duration-ms="9467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="inputDataFromExcel()[pri:1, instance:com.Practice.DataDriven.HandleDataDriven@b3ca52e]" started-at="2026-01-20T11:55:07 IST" name="inputDataFromExcel" finished-at="2026-01-20T11:55:07 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDataFromExcel -->
+        <test-method signature="fillForm()[pri:2, instance:com.Practice.DataDriven.HandleDataDriven@b3ca52e]" started-at="2026-01-20T11:55:07 IST" name="fillForm" finished-at="2026-01-20T11:55:07 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+      </class> <!-- com.Practice.DataDriven.HandleDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

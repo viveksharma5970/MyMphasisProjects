@@ -1,0 +1,6 @@
+com\Google\BaseClass\BaseClass.class
+com\Mphasis\DataDriven\FormRegistration.class
+com\Google\ObjectRepository\GooglePO.class
+Mphasis\MphasisTrainings\AppTest.class
+com\Mphasis\ActionsModification\ActionsModifier.class
+Mphasis\MphasisTrainings\TestMphasis.class

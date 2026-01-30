@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-28T11:57:31 IST" name="Default suite" finished-at="2026-01-28T11:57:34 IST" duration-ms="2910">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@544fa968]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-28T11:57:31 IST" name="Default test" finished-at="2026-01-28T11:57:34 IST" duration-ms="2910">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@544fa968]" started-at="2026-01-28T11:57:31 IST" name="setUpClass" finished-at="2026-01-28T11:57:31 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d2c9361]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@544fa968]" started-at="2026-01-28T11:57:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T11:57:33 IST" duration-ms="1935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Rest API Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@544fa968]" started-at="2026-01-28T11:57:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T11:57:34 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["test post method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@544fa968]" started-at="2026-01-28T11:57:34 IST" name="tearDownClass" finished-at="2026-01-28T11:57:34 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
