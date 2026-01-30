@@ -44,4 +44,11 @@ public class AddUserPage {
 		
 		
 	}
+	
+	public void logout() throws InterruptedException {
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/i")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/ul/li[4]/a")).click();
+	}
 }

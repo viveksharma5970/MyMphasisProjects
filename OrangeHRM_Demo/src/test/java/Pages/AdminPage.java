@@ -22,16 +22,18 @@ public class AdminPage {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		WebElement admin = driver.findElement(By.xpath("//span[text()='Admin']"));
 //		wait.until(ExpectedConditions.visibilityOf(admin));
+		
 		admin.click();
 	}
 	
 	public void searchAdminDetails(String username, String name) throws InterruptedException {
-//		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input")).sendKeys(username);
-//		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div/input")).sendKeys(name);
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input")).sendKeys(username);
+		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div/input")).sendKeys(name);
 //		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]")).submit();
-//		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		
+		Thread.sleep(5000);
 //		assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/span")).getText(), "No Records Found");
+		driver.findElement(By.tagName("body")).click();
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")).click();
 	}
 }

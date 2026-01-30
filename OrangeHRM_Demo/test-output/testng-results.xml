@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-30T09:56:00 IST" name="Default suite" finished-at="2026-01-30T09:56:11 IST" duration-ms="11109">
+  <suite started-at="2026-01-30T14:24:55 IST" name="Default suite" finished-at="2026-01-30T14:25:19 IST" duration-ms="24327">
     <groups>
     </groups>
-    <test started-at="2026-01-30T09:56:00 IST" name="Default test" finished-at="2026-01-30T09:56:11 IST" duration-ms="11109">
+    <test started-at="2026-01-30T14:24:55 IST" name="Default test" finished-at="2026-01-30T14:25:19 IST" duration-ms="24327">
       <class name="Runner.TestRunner">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T09:55:51 IST" name="setUp" finished-at="2026-01-30T09:56:00 IST" duration-ms="9443" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T14:24:44 IST" name="setUp" finished-at="2026-01-30T14:24:55 IST" duration-ms="11030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPage(java.lang.String,java.lang.String)[pri:1, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T09:56:01 IST" name="testLoginPage" data-provider="user_credentials" finished-at="2026-01-30T09:56:03 IST" duration-ms="2188" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String)[pri:1, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T14:24:55 IST" name="testLoginPage" data-provider="user_credentials" finished-at="2026-01-30T14:24:59 IST" duration-ms="3975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method signature="testAdminPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T09:56:03 IST" name="testAdminPage" data-provider="system_user_details" finished-at="2026-01-30T09:56:10 IST" duration-ms="7288" status="PASS">
+        <test-method signature="testAdminPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T14:24:59 IST" name="testAdminPage" data-provider="system_user_details" finished-at="2026-01-30T14:25:10 IST" duration-ms="11048" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdminPage -->
-        <test-method signature="testAddUserPage()[pri:3, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T09:56:10 IST" name="testAddUserPage" finished-at="2026-01-30T09:56:11 IST" duration-ms="969" status="PASS">
+        <test-method signature="testAddUserPage()[pri:3, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T14:25:10 IST" name="testAddUserPage" finished-at="2026-01-30T14:25:19 IST" duration-ms="8609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUserPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T09:56:12 IST" name="tearDown" finished-at="2026-01-30T09:56:12 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Runner.TestRunner@5e5d171f]" started-at="2026-01-30T14:25:19 IST" name="tearDown" finished-at="2026-01-30T14:25:20 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -37,8 +37,9 @@ public class TestRunner extends BaseClass{
 	}
 	
 	@Test(priority = 3) 
-	public static void testAddUserPage() {
+	public static void testAddUserPage() throws InterruptedException {
 		AddUserPage addUser = new AddUserPage(driver);
 		addUser.addUser();
+		addUser.logout();
 	}
 }

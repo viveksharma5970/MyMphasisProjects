@@ -6,7 +6,9 @@
       <class name="Runner.TestRunner">
         <methods>
           <include name="testAddUserPage"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testAdminPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- Runner.TestRunner -->
     </classes>
